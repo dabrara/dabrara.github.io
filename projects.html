@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Dabir Uddin</title><meta name="description" content="Projects by Dabir Uddin, including the MS Tutoring website.">
+<meta property="og:type" content="website"><meta property="og:title" content="Projects | Dabir Uddin"><meta property="og:description" content="Projects by Dabir Uddin, including the MS Tutoring website.">
+<!-- After going live, add og:image and og:url meta tags with your real site URL -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230E1114'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='28' font-weight='700' text-anchor='middle' fill='%231793D1'%3E%3E_%3C/text%3E%3C/svg%3E"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body><header><div class="wrap"><a class="brand" href="index.html">dabir@archlinux</a><nav aria-label="Primary"><a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a><a href="projects.html" aria-current="page">Projects</a><a href="interests.html">Interests</a><a href="contact.html">Contact</a></nav><span class="clock" id="clock" aria-hidden="true"></span></div></header>
+<main><div class="wrap page">
+<h1 class="sub"><span class="pr">$</span> <span class="cm">cat</span> <span class="fn">projects</span><span class="ex">.sh</span></h1><p class="lede">Two projects so far, with more to come as I make them public.</p>
+<div class="block"><div class="grid">
+<article class="card wide"><h3>Port scanner in Python</h3><p>A command-line port scanner that recreates core Nmap features from scratch with raw sockets, to show how network reconnaissance works at a low level. It does not use Nmap.</p><ul class="feat"><li>TCP connect scan that classifies ports as open, closed or filtered</li><li>SYN scan using Scapy raw packets</li><li>Banner grabbing and service detection on open ports</li><li>OS guess from TTL and TCP window size</li><li>Parallel scanning across many ports, with a formatted report</li></ul><pre><code>python3 main.py -t 127.0.0.1 -p 1-1024</code></pre><p class="note">Intended for systems you own or have permission to test.</p><span class="tag">Python 3.10+, Scapy, sockets. Repository will be made public later.</span>
+<!-- When public, add here: <p><a href="https://github.com/YOUR-NAME/YOUR-REPO">View on GitHub</a></p> --></article>
+<article class="card wide"><h3>MS Tutoring website</h3><p>The website for MS Tutoring, the tutoring business where I work. It presents the programs offered: math and science, English and history, SAT and ACT test prep, and Regents review. It is hosted on GitHub Pages with a custom domain.</p><span class="tag">HTML, CSS, GitHub Pages</span>
+<!-- To link it, add here: <p><a href="https://YOUR-MSTUTORING-URL">Visit the site</a></p> --></article>
+<!-- TO ADD A PROJECT: copy the block below, paste it directly above this comment, and edit the text. Delete the link line if the project is not public yet.
+<article class="card"><h3>Project name</h3><p>One or two sentences on what it is and what you did.</p><p><a href="https://github.com/your-name/your-repo">View on GitHub</a></p><span class="tag">Tools used</span></article>
+-->
+</div><p class="note" style="margin-top:var(--s3)">More projects will be added here as I make them public.</p></div></div></main>
+<footer><div class="wrap bar"><span class="mode">NORMAL</span><span>projects.html</span><span>arch btw</span><span class="hint">Press 1 to 6 to switch pages</span><span class="copy">&copy; 2026 Dabir Uddin. All rights reserved.</span></div></footer><script src="script.js"></script></body></html>
